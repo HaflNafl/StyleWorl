@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="403dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:text="гондурасский футбольный клуб из Тегусигальпы, столицы страны, в настоящее время выступающий в Национальной лиге Гондураса, первой по уровню в системе футбольных лиг страны. Домашние матчи команда проводит на стадионе Тибурсио Кариас Андино, вмещающем около 34 000 зрителей, на котором также проводят свои матчи «Олимпия», «Мотагуа» и сборная Гондураса.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="326dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/____" />
+
+    <Button
+        style="@style/button"
+        android:background="@drawable/style2"
+        android:onClick="pere"
+        android:id="@+id/button3"
+        android:layout_width="153dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="216dp"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
